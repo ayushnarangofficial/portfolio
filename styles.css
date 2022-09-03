@@ -259,6 +259,10 @@ nav ul li a:hover{
 }
 
 .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.31);
@@ -276,13 +280,17 @@ nav ul li a:hover{
 .contact .box{
     flex-direction: column;
     margin-top: 40px;
+    width: 100%;
 }
 .box div{
-    width: 40%;
+    align-items: center;
+    justify-content: center;
     margin: auto;
+    width: 100%;
+    position: relative;
 }
 .contact .box input{
-    width: 90%;
+    width: auto;
     margin: auto;
     outline: none;
     border: none;
@@ -292,9 +300,7 @@ nav ul li a:hover{
     margin: 10px;
     font-size: 16px;
 }
-.box div{
-    position: relative;
-}
+
 .box div i{
     position: absolute;
     font-size: 20px;
@@ -311,7 +317,6 @@ nav ul li a:hover{
     border-radius: 20px;
     border: 1px solid #FFDE59;
     outline: none;
-    margin-left: 30px;
 }
 .send{
     background: linear-gradient(#FFDE59 , #ddb100);
@@ -339,4 +344,345 @@ footer .social i{
 }
 .social i:hover{
     color: #fdf1be;
+}
+
+
+@media (min-width: 1025px) {
+    .container .logo{
+        font-size: 30px;
+    }
+    .fa-face-smile-wink {
+        font-size: 25px;
+    }
+    header .logo{
+        margin-left: 30px;
+
+    }
+    header nav{
+        justify-content: center;
+    }
+    header nav ul{
+        margin-left: 100px;
+    }
+    .main .main-one{
+        padding-left: 50px;
+    }
+    .main-one h1{
+        font-size: 70px;
+    }
+    .main-one span{
+        font-size: 45px;
+    }
+    .main-one p{
+        font-size: 20px;
+    }
+    .projects{
+        padding: 30px 50px;
+        width: 100%;
+        height: 750px;
+    }
+    .project-div {
+        width: 400px;
+        height: 360px;
+    }
+    .projects h1{
+        font-size: 40px;
+    }
+    .projects p{
+        width: 100%;
+        font-size: 20px;
+    }
+    .div-1 {
+        top: 10px;
+        left: 600px;
+    }
+    .div-2{
+        left: 550px;
+    }
+    .div-3{
+        left: 100px;
+    }
+    .about{
+        width: 95%;
+        padding-left: 0;
+    }
+    .box div {
+        width: auto;
+    }
+    
+    .contact textarea {
+        width: 400px;
+    }
+
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container .logo {
+        font-size: 25px;
+    }
+
+    .fa-face-smile-wink {
+        font-size: 22px;
+    }
+
+    header .logo {
+        margin-left: 15px;
+    }
+    nav ul li a{
+        font-size: 18px;
+        margin: 0 10px;
+        padding: 0;
+    }
+
+    header nav {
+        justify-content: center;
+    }
+
+    header nav ul {
+        margin-left: 0px;
+    }
+
+    .main .main-one {
+        padding-left: 50px;
+    }
+
+    .main-one h1 {
+        font-size: 50px;
+    }
+    .main{
+        display: flex;
+        align-items: flex-start;
+        padding-top: 50px;
+    }
+    .container .main{
+        height: 65vh;
+    }
+
+    .main-one span {
+        font-size: 32px;
+    }
+
+    .main-one p {
+        font-size: 17px;
+    }
+    .main-two img{
+        width: 450px;
+    }
+
+    .projects {
+        padding: 25px 40px;
+        width: 100%;
+        height: 750px;
+    }
+
+    .project-div {
+        width: 350px;
+        height: 360px;
+    }
+
+    .projects h1 {
+        font-size: 37px;
+    }
+
+    .projects p {
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .div-1 {
+        top: 10px;
+        left: 440px;
+    }
+
+    .div-2 {
+        left: 440px;
+    }
+
+    .div-3 {
+        left: 50px;
+    }
+
+    .about {
+        width: 100%;
+        padding: 0;
+    }
+    .about-one{
+        width: 50%;
+        padding: 0 10px 0 30px;
+    }
+    .about-one h1{
+        font-size: 45px;
+    }
+    .about-one p{
+        font-size: 17px;
+    }
+    .about-two{
+        width: 50%;
+    }
+    .about-two img{
+        width: 350px;
+    }
+    .contact .box{
+        margin-top: 20px;
+    }
+    .box div{
+        width: auto;
+    }
+    .contact textarea {
+        width: 400px;
+    }
+
+}
+
+
+@media (min-width: 500px) and (max-width: 769px) {
+    .container .logo {
+        font-size: 12px;
+        margin-left: 0;
+    }
+    .container header{
+        padding-left: 20px;
+    }
+
+    .fa-face-smile-wink {
+        font-size: 14px;
+    }
+
+    header .logo {
+        margin-left: 0;
+        padding: 0;
+    }
+
+    nav ul li a {
+        font-size: 11px;
+        margin: 0 5px;
+        padding: 0;
+    }
+
+    header nav {
+        justify-content: center;
+    }
+
+    header nav ul {
+        margin-left: 40px;
+    }
+
+    .main .main-one {
+        padding-left: 20px;
+    }
+
+    .main-one h1 {
+        font-size: 30px;
+    }
+
+    .main {
+        display: flex;
+        align-items: flex-start;
+        padding-top: 5px;
+    }
+
+    .container .main {
+        height: 50vh;
+    }
+
+    .main-one span {
+        font-size: 15px;
+    }
+
+    .main-one p {
+        font-size: 12px;
+    }
+    .main-one button{
+        margin-top: 10px;
+        font-size: 15px;
+        padding: 5px 5px;
+    }
+
+    .main-two img {
+        width: 320px;
+    }
+
+    .projects {
+        padding: 20px;
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-div{
+        width: 100%;
+        padding-bottom: 30px;
+        justify-content: left !important;
+        align-items: left !important;
+    }
+        
+    .project-div .button{
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .projects h1 {
+        font-size: 30px;
+    }
+
+    .projects p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .div-1 {
+        position: initial;
+    }
+
+    .div-2 {
+        position: initial;
+    }
+
+    .div-3 {
+        position: initial;
+    }
+
+    .about {
+        width: 100%;
+        padding: 0;
+    }
+
+    .about-one {
+        width: 50%;
+        padding: 5px 5px 0 20px;
+    }
+
+    .about-one h1 {
+        font-size: 30px;
+    }
+
+    .about-one p {
+        font-size: 11px;
+    }
+
+    .about-two {
+        width: 50%;
+    }
+
+    .about-two img {
+        width: 230px;
+    }
+
+    .contact .box {
+        margin-top: 5px;
+    }
+
+    .box div {
+        width: auto;
+    }
+    .contact .box textarea{
+        width: 300px;
+    }
+    footer{
+        padding: 10px 20px;
+    }
+
 }
