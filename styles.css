@@ -319,6 +319,7 @@ nav ul li a:hover{
     font-size: 19px !important;
     font-weight: 600;
     cursor: pointer;
+    color: black;
     margin: 30px auto !important;
 }
 .send:active{
