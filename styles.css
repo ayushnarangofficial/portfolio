@@ -67,10 +67,16 @@ body.dark .main-two img {
     content: url('myPicDark.png');
 }
 body.dark .projects-cards {
-    background-color: var(--body-color)
+    background-color: var(--body-color);
 }
 body.dark .contact {
     border-top: 1px solid rgba(255, 255, 255, 0.31);
+}
+body.dark .contact .box textarea {
+    color: var(--white);
+}
+body.dark .contact .box input {
+    color: var(--white);
 }
 
 
@@ -507,6 +513,7 @@ nav .nav-bar .logo a {
     outline: none;
     border: none;
     padding: 9px 150px 9px 45px;
+    color: var(--black);
     background-color: var(--yellow);
     border-radius: 5px;
     margin: 10px;
@@ -526,7 +533,7 @@ nav .nav-bar .logo a {
     margin-top: 20px;
     background-color: transparent;
     padding: 10px 30px;
-    color: var(--white);
+    color: var(--black);
     font-size: 18px;
     border-radius: 20px;
     border: 3px solid var(--yellow);
