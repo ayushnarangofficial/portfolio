@@ -75,10 +75,6 @@ body.dark .contact {
 body.dark .contact .box textarea {
     color: var(--white);
 }
-body.dark .contact .box input {
-    color: var(--white);
-}
-
 
 
 
