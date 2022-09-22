@@ -21,6 +21,7 @@
     font-family: 'Poppins', sans-serif;
     transition: all 0.4s ease;
     scroll-behavior: smooth;
+    overflow-x: hidden;
     
 }
 
@@ -1478,7 +1479,7 @@ footer .social i {
     }
     
     .contact .box input {
-        padding: 8px 70px 8px 40px;
+        padding: 8px 60px 8px 40px;
         margin: 10px;
         font-size: 12px;
     }
