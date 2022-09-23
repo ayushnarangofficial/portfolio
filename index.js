@@ -15,7 +15,7 @@ const scrollAnimation = ScrollReveal ({
 
 scrollAnimation.reveal('.main-one', {delay:100, origin: 'left'});
 scrollAnimation.reveal('.main-two', {delay:170, origin: 'right'});
-scrollAnimation.reveal('.projects-info', {delay:100, origin: 'left'});
+scrollAnimation.reveal('.projects-info', {delay:170, origin: 'left'});
 scrollAnimation.reveal('.row-one', {delay:170, origin: 'left'});
 scrollAnimation.reveal('.row-two', {delay:170, origin: 'right'});
 scrollAnimation.reveal('.about-one', {delay:100, origin: 'left'});
