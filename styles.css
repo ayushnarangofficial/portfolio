@@ -562,7 +562,7 @@ nav .nav-bar .logo a {
 }
 
 .send {
-    background: linear-gradient(#ffdc4f, #ddb100);
+    background: linear-gradient(#ffe062, #f5c60c);
     font-size: 19px !important;
     font-weight: 600;
     cursor: pointer;
@@ -1112,7 +1112,7 @@ footer .social i {
     .about-btn button {
         padding: 7px 18px;
         font-size: 12px;
-        margin-top: 5px;
+        margin-top: 10px;
     }
 
     .about-two img {
@@ -1138,13 +1138,13 @@ footer .social i {
     }
 
     .contact .box input {
-        padding: 9px 100px 9px 40px;
+        padding: 8px 100px 8px 40px;
         margin: 10px;
         font-size: 13px;
     }
 
     .box div i {
-        font-size: 18px;
+        font-size: 17px;
         top: 5px;
         left: 45px;
     }
@@ -1304,7 +1304,7 @@ footer .social i {
     .about-btn button {
         padding: 7px 18px;
         font-size: 11px;
-        margin-top: 5px;
+        margin-top: 10px;
     }
 
     .about-two img {
@@ -1336,7 +1336,7 @@ footer .social i {
     }
 
     .box div i {
-        font-size: 18px;
+        font-size: 17px;
         top: 5px;
         left: 45px;
     }
@@ -1406,7 +1406,8 @@ footer .social i {
     .main-one button {
         padding: 9px 20px;
         font-size: 11px;
-        margin-top: 5px;
+        margin-top: 1px;
+        margin-left: 7px;
     }
 
     .main-two {
@@ -1451,6 +1452,7 @@ footer .social i {
         padding: 9px 23px;
         font-size: 11px;
         margin-top: 10px;
+        margin-left: 7px;
     }
 
     .project-rows {
@@ -1522,7 +1524,7 @@ footer .social i {
     .about-btn button {
         padding: 7px 18px;
         font-size: 11px;
-        margin-top: 5px;
+        margin-top: 8px;
     }
 
     .about-two img {
@@ -1604,21 +1606,23 @@ footer .social i {
     }
 
     .main-one h1 {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .main-one span {
-        font-size: 13px;
+        font-size: 17px;
     }
 
     .main-one p {
         font-size: 9px;
+        padding: 3px;
     }
 
     .main-one button {
         padding: 5px 14px;
         font-size: 8px;
-        margin-top: 3px;
+        margin-top: 0;
+        margin-left: 5px;
     }
 
     .main-two {
@@ -1737,12 +1741,13 @@ footer .social i {
 
     .about-one p {
         font-size: 8px;
+        padding: 3px;
     }
 
     .about-btn button {
         padding: 5px 15px;
         font-size: 10px;
-        margin-top: 5px;
+        margin-top: 7px;
     }
 
     .about-two img {
@@ -1774,14 +1779,14 @@ footer .social i {
     }
 
     .box div i {
-        font-size: 15px;
+        font-size: 14px;
         top: 3px;
         left: 37px;
     }
 
     .contact .box textarea {
         margin-top: 15px;
-        padding: 10px 25px;
+        padding: 7px 25px;
         font-size: 13px;
         width: 290px;
         height: 100px;
