@@ -209,18 +209,18 @@
     <section class="contact flex" id="contact">
         <h1>Let's <span>Talk!</span></h1>
         <div class="box flex">
-            <form action="mailto:ayushnarangpro@gmail.com" method="post" enctype="text/plain">
+            <form action="https://formsubmit.co/el/yugejo" method="POST" enctype="text/plain">
                 <div>
                     <i class="fa-solid fa-user"></i>
-                    <input type="text" placeholder="Name" required />
+                    <input type="text" placeholder="Name" name="name" required />
                 </div>
                 <div>
                     <i class="fa-solid fa-envelope"></i>
-                    <input type="email" placeholder="Email" required />
+                    <input type="email" placeholder="Email" name="email" required />
                 </div>
                 <textarea cols="60" rows="5" placeholder="Enter your Message here...." required></textarea>
                 <div>
-                    <input type="submit" class="send" value="Send" />
+                    <button type="submit" class="send">Send</button>
                 </div>
             </form>
         </div>
