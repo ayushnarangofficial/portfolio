@@ -574,7 +574,7 @@ nav .nav-bar .logo a {
     color: var(--black);
     outline: none;
     border: none;
-    border-radius: 50px;
+    border-radius: 50px !important;
     box-shadow: 2px 2px 10px #0e0e0e79;
 }
 
