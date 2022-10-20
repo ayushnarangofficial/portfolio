@@ -1376,6 +1376,13 @@ footer .social i {
         font-weight: 600;
         padding: 7px 27px !important;
         margin: 20px auto !important;
+         background-color: var(--yellow);
+        cursor: pointer;
+         color: var(--black);
+         outline: none;
+         border: none;
+         border-radius: 50px;
+         box-shadow: 2px 2px 10px #0e0e0e79;
     }
 
 
@@ -1600,6 +1607,13 @@ footer .social i {
         font-weight: 600;
         padding: 7px 24px !important;
         margin: 20px auto !important;
+        background-color: var(--yellow);
+        cursor: pointer;
+        color: var(--black);
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        box-shadow: 2px 2px 10px #0e0e0e79;
     }
 
     footer {
@@ -1823,6 +1837,13 @@ footer .social i {
         font-weight: 500;
         padding: 6px 22px !important;
         margin: 10px auto !important;
+        background-color: var(--yellow);
+        cursor: pointer;
+        color: var(--black);
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        box-shadow: 2px 2px 10px #0e0e0e79;
     }
 
     footer {
