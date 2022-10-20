@@ -24,7 +24,7 @@
     transition: all 0.4s ease;
     scroll-behavior: smooth;
     overflow-x: hidden;
-    
+
 
 }
 
@@ -108,6 +108,7 @@ body.dark .contact {
 body.dark .contact .box textarea {
     color: var(--white);
 }
+
 body.dark .nav-links li a::before {
     background-color: var(--yellow);
 }
@@ -335,7 +336,7 @@ nav .nav-bar .logo a {
 .projects-info h1 {
     font-size: 60px;
     font-weight: 800;
-    
+
 }
 
 .projects-info h1 span {
@@ -366,9 +367,11 @@ nav .nav-bar .logo a {
 .project-rows {
     justify-content: center;
 }
+
 .row-one {
     padding: 25px 0px 25px 10px;
 }
+
 .row-two {
     padding: 25px 10px 25px 0;
 }
@@ -562,13 +565,17 @@ nav .nav-bar .logo a {
 }
 
 .send {
-    background: linear-gradient(#ffe062, #f5c60c);
+    background-color: var(--yellow);
+    padding: 12px 35px !important;
     font-size: 19px !important;
     font-weight: 600;
+    margin: 20px 10px !important;
     cursor: pointer;
-    padding: 10px 40px !important;
     color: var(--black);
-    margin: 30px auto !important;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px #0e0e0e79;
 }
 
 .send:active {
@@ -615,6 +622,9 @@ footer .social i {
 
 
 
+
+
+
 /* MEDIA QUERY FOR NAVBAR */
 
 @media (min-width: 790px) and (max-width: 1024px) {
@@ -634,13 +644,13 @@ footer .social i {
         font-size: 19px;
     }
 
-    .nav-bar .dark-light{
+    .nav-bar .dark-light {
         margin-right: 40px;
     }
 
     .dark-light i {
         font-size: 30px;
-        
+
     }
 
 }
@@ -660,6 +670,7 @@ footer .social i {
     nav .nav-bar .logo a {
         font-size: 25px;
     }
+
     .nav-bar .dark-light {
         margin-right: 30px;
     }
@@ -718,6 +729,7 @@ footer .social i {
         font-size: 17px;
         overflow-y: hidden;
     }
+
     .nav-links li a::before {
         height: 2px;
         bottom: 0;
@@ -742,6 +754,7 @@ footer .social i {
         font-size: 21px;
         display: block;
     }
+
     .nav-bar .dark-light {
         margin-right: 0;
     }
@@ -973,11 +986,17 @@ footer .social i {
     }
 
     .send {
-        background: linear-gradient(#ffdc4f, #ddb100);
-        font-size: 19px !important;
-        font-weight: 600;
-        padding: 10px 40px !important;
-        margin: 30px auto !important;
+    background-color: var(--yellow);
+    padding: 11px 33px !important;
+    font-size: 17px !important;
+    font-weight: 600;
+    margin: 20px 10px !important;
+    cursor: pointer;
+    color: var(--black);
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px #0e0e0e79;
     }
 
 }
@@ -1140,7 +1159,7 @@ footer .social i {
     .contact .box input {
         padding: 8px 100px 8px 40px;
         margin: 10px;
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .box div i {
@@ -1152,16 +1171,22 @@ footer .social i {
     .contact .box textarea {
         margin-top: 20px;
         padding: 10px 25px;
-        font-size: 16px;
+        font-size: 18px;
         width: 400px;
     }
 
     .send {
-        background: linear-gradient(#ffdc4f, #ddb100);
-        font-size: 15px !important;
-        font-weight: 600;
-        padding: 7px 27px !important;
-        margin: 20px auto !important;
+    background-color: var(--yellow);
+    padding: 10px 30px !important;
+    font-size: 16px !important;
+    font-weight: 600;
+    margin: 20px 10px !important;
+    cursor: pointer;
+    color: var(--black);
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px #0e0e0e79;
     }
 
 }
@@ -1350,7 +1375,7 @@ footer .social i {
     }
 
     .send {
-        font-size: 15px !important;
+        font-size: 14px !important;
         font-weight: 600;
         padding: 7px 27px !important;
         margin: 20px auto !important;
@@ -1460,9 +1485,11 @@ footer .social i {
         justify-content: center;
         flex-direction: column;
     }
+
     .row-one {
         padding: 22px 20px 10px;
     }
+
     .row-two {
         padding: 22px 20px 10px;
     }
@@ -1681,7 +1708,7 @@ footer .social i {
     .row-one {
         padding: 26px 20px 15px;
     }
-        
+
     .row-two {
         padding: 26px 20px 15px;
     }
