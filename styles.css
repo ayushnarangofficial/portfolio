@@ -564,7 +564,7 @@ nav .nav-bar .logo a {
     outline: none;
 }
 
-.send button {
+.send {
     background-color: var(--yellow);
     padding: 12px 35px !important;
     font-size: 19px !important;
@@ -982,7 +982,7 @@ footer .social i {
         font-size: 18px;
     }
 
-    .send button {
+    .send {
     background-color: var(--yellow);
     padding: 11px 33px !important;
     font-size: 17px !important;
@@ -1172,7 +1172,7 @@ footer .social i {
         width: 400px;
     }
 
-    .send button {
+    .send {
     background-color: var(--yellow);
     padding: 10px 30px !important;
     font-size: 16px !important;
@@ -1371,7 +1371,7 @@ footer .social i {
         height: 130px;
     }
 
-    .send button {
+    .send {
         font-size: 14px !important;
         font-weight: 600;
         padding: 7px 27px !important;
@@ -1602,7 +1602,7 @@ footer .social i {
         height: 100px;
     }
 
-    .send button {
+    .send {
         font-size: 13px !important;
         font-weight: 600;
         padding: 7px 24px !important;
@@ -1832,7 +1832,7 @@ footer .social i {
         height: 100px;
     }
 
-    .send button {
+    .send {
         font-size: 11px !important;
         font-weight: 500;
         padding: 6px 22px !important;
